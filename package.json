@@ -1,0 +1,16 @@
+{
+  "name": "app-gitaction",
+  "version": "1.0.0",
+  "description": "project for testing github action",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "node_modules/webpack/bin/webpack.js --mode development --watch",
+    "production": "node_modules/webpack/bin/webpack.js --mode production"
+  },
+  "author": "hitlur",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
